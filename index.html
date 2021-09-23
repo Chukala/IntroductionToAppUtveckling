@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ethio Road | Eco-friendly Adventure</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/favicon_io/favicon-32x32.png" />
+    <meta
+      name="description"
+      content="Ethio Road is a website leads you to your Eco-friendly Adventure destination"
+    />
+  </head>
+  <body>
+    <main id="main">
+      <header id="header">
+        <div id="logo">
+          <h2>Logo</h2>
+          <button id="toggleBtn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+
+        <nav id="navBar">
+          <ul class="navBarListItems">
+            <li class="navBarListItem">
+              <div class="dropdown">
+                <button class="dropbtn">
+                  <a href="#" class="nav-link">Explore</a>
+                  <span class="drop-caret"
+                    ><i class="fas fa-caret-down"></i
+                  ></span>
+                </button>
+                <div class="dropdown-content">
+                  <a class="dropLink" href="/html/acomodation.html" target="_blank">Accomodations</a>
+                  <a class="dropLink" href="/html/tours.html" target="_blank">Tours</a>
+                  <a class="dropLink" href="/html/activities.html" target="_blank">Activities</a>
+                </div>
+              </div>
+            </li>
+            <li class="navBarListItem">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+            <li class="navBarListItem">
+              <a class="nav-link" href="#">Partner with us</a>
+            </li>
+            <li class="navBarListItem">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section id="heroSection">
+        <div id="heroImg"></div>
+      </section>
+
+      <section id="gallerySection">
+        <div id="gallerySectionWrapper">
+
+          <div class="galleryTitleDiv">
+            <h1 class="galleryTitle">Gallery</h1>
+          </div>
+
+          <div class="sliderWrapper">
+            <div class="slideImgDiv">
+              <img src="images/img_02.gif" class="slideImg" alt="image_1" />
+            </div>
+            <div class="slideImgDiv">
+              <img src="images/img_03.gif" class="slideImg" alt="image_2" />
+            </div>
+            <div class="slideImgDiv">
+              <img src="images/img_04.gif" class="slideImg" alt="image_3" />
+            </div>
+            <div class="slideImgDiv">
+                <img src="images/img_08.gif" class="slideImg" alt="image_8" />
+            </div>
+            <div id="btnWrapper">
+              <button type="button" class="prevBtn"><i class="fas fa-angle-left"></i></button>
+              <button type="button" class="nextBtn"><i class="fas fa-angle-right"></i></button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="experienceSection">
+        <div class="experienceWrapper">
+          <div class="experienceTitleDiv">
+            <h1 class="experienceTitle">Experiences</h1>
+          </div>
+          <div class="experienceVideoWrapper">
+            <div class="experenceItem">
+              <div class="videoWrapper">
+                <video controls autoplay muted>
+                  <source src="video/video_01.mp4" type="video/mp4">
+                </video>
+              </div>
+              <h4>
+                Shared by <span>Sileshi</span>
+              </h4>
+              <h4>23/09/2021</h4>
+              <h4>Location</h4>
+              <h4>video credit to mr.x www.ddd.com</h4>
+            </div>
+            <div class="experenceItem">
+              <div class="videoWrapper">
+                <video controls autoplay muted>
+                  <source src="video/video_02.mp4" type="video/mp4">
+                </video>
+              </div>
+              <h4>
+                Shared by <span>Sileshi</span>
+              </h4>
+              <h4>24/09/2021</h4>
+              <h4>Location</h4>
+              <h4>video credit to mr.x www.ddd.com</h4>
+            </div>
+            <div class="experenceItem">
+              <div class="videoWrapper">
+                <video controls autoplay muted>
+                  <source src="video/video_03.mp4" type="video/mp4">
+                </video>
+              </div>
+              <h4>
+                Shared by <span>Sileshi</span>
+              </h4>
+              <h4>24/09/2021</h4>
+              <h4>Location</h4>
+              <h4>video credit to mr.x www.ddd.com</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer id="footer">
+        <section id="footerSection">
+          <div id="footerWrapper">
+            <div class="footerColumn">
+              <div class="titleWrapper">
+                <h2 class="title">Explore</h2>
+              </div>
+              <a href="#" class="footer-link">Accomodations</a>
+              <a href="#" class="footer-link">Tours</a>
+            </div>
+            <div class="footerColumn">
+              <div class="titleWrapper">
+                <h2 class="title">Community</h2>
+              </div>
+              <a href="#" class="footer-link">Suggest a destination</a>
+              <a href="#" class="footer-link">Experiences</a>
+              <a href="#" class="footer-link">Forums</a>
+              <a href="#" class="footer-link">Blog</a>
+            </div>
+            <div class="footerColumn">
+              <div class="titleWrapper">
+                <h2 class="title">Ethio Road</h2>
+              </div>
+              <a href="#" class="footer-link">About Us</a>
+              <div class="titleWrapper">
+                <h2 class="title">Compare</h2>
+              </div>
+              <a href="#" class="footer-link">Accomodation</a>
+              <a href="#" class="footer-link">Tour</a>
+            </div>
+            <div class="footerColumn">
+              <div class="titleWrapper">
+                <h2 class="title">Account</h2>
+              </div>
+              <a href="#" class="footer-link">Sign up</a>
+              <a href="#" class="footer-link">Login</a>
+              <a href="#" class="footer-link">Partner area</a>
+            </div>
+          </div>
+        </section>
+        <section id="footerCopyRightSection">
+          <div id="social">
+            <div id="socialMediaIcon">
+              <a href="#" class="social-link"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitch"></i></a>
+              <a href="#" class="social-link">Privacy Policy </a>
+              <a href="#" class="social-link">Terms of Use </a>
+            </div>
+            <div id="copyright"><p>Copyright &copy; 2021 Ethio Road</p></div>
+          </div>
+        </section>
+      </footer>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
